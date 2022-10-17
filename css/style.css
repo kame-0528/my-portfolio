@@ -1,200 +1,131 @@
 @charset "utf-8";
 
-* {
-  box-sizing: border-box;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bfe6bb;
+    color: black;
+    font-size: 15px;
+    line-height: 2;
 }
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+header{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
 }
-  
-a {
-  text-decoration: none;
+
+.logo{
+    float: left;
+    margin-top: 50px;
 }
-  
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+
+.moji-nav{
+    float: right;
+    margin-top: 60px;
 }
-  
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+
+.moji-nav li{
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
 }
-  
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
+
+.moji-nav li a{
+    color: black;
 }
-  
-.top-wrapper p {
-  opacity: 0.7;
+
+.moji-nav li a:hover{
+    border-bottom: 2px solid  black;
+    padding-bottom: 3px;
+    text-decoration: none;
 }
-  
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
+
+.content{
+    width: 960px;
+    margin: 0 auto;
 }
-  
-.btn-wrapper p {
-  margin: 10px 0;
+
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
 }
-  
-.signup {
-  background-color: #239b76;
+
+img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
 }
-  
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
+
+ul{
+    margin: 0;
+    padding: 0;
 }
-  
-.twitter {
-  background-color: #55acee;
+
+a{
+    color: rgb(45, 107, 109);
+    text-decoration: none;
 }
-  
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+
+a:visited{
+    color:rgb(84, 84, 84);
 }
-  
-.btn:hover {
-  opacity: 1;
+
+a:hover{
+    text-decoration: underline;
 }
-  
-.fa {
-  margin-right: 5px;
+
+#wrap{
+    clear: both;
 }
-  
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+
+footer{
+    text-align: center;
+    color: black;
+    padding: 20px 0;
 }
-  
-.logo {
-  width: 124px;
-  margin-top: 20px;
+
+footer small{
+    font-size: 12px;
 }
-  
-.header-left {
-  float: left;
+
+#index h1{
+    font-size: 100px;
+    line-height: 1;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
 }
-  
-.header-right {
-  float: right;
-  margin-right: -25px;
+
+#index .content{
+    margin-top: 150px;
 }
-  
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+
+#index p{
+    font-size: 16px;
+    color: black;
 }
-  
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+
+#index footer{
+    width: 960px;
+    margin: 150px auto 0 auto;
+    text-align: left;
 }
-  
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+
+#index{
+    background-image: url(../images/haikei.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
-  
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+
+.box{
+    width: 960px;
+    margin: 0 auto;
 }
-  
-.heading h2 {
-  font-weight: normal;
-}
-  
-.lesson {
-  float: left;
-  width: 25%;
-}
-  
-.lesson-icon {
-  position: relative;
-}
-  
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-  
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-  
-.heading h3 {
-  font-weight: normal;
-}
-  
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-  
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  box-shadow: 0 7px #1a7940;
-}
-  
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-  
-footer img {
-  width: 125px;
-}
-  
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-  
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-  
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+
+#index .box{
+    margin-top: 150px;
 }
