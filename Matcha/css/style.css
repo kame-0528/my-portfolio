@@ -1,54 +1,131 @@
 @charset "utf-8";
-/* 冒頭でimport */
-@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
-/* フォントを指定したいところで */
 
-logo img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* 画像のトリミング */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: rgb(86, 86, 86);
+    font-size: 15px;
+    line-height: 2;
 }
 
-logotohome img{
-    border-radius: 70%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover; /* 画像のトリミング */
+header{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
 }
 
-
-
-/* ========== common ========== */
-html, body {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #393939;
-    margin-left: 15px;
-    margin-bottom: 40px;
-	background: #efefef;
-}
-h1{
-    text-indent: 0em;
-}
-h2{
-    margin-left: 1em;
-    margin-top: 1em;
-}
-h3{
-    margin-left: 2em;
-}
-div{
-    margin-top: 1em;
-    margin-left: 3em;
-}
-p{
-    margin-left: 3em;
-}
-span.blackback{
-    text-indent: 3em;
-    background: #393939;
-    color: #efefef;
+.logo{
+    float: left;
+    margin-top: 50px;
 }
 
+.moji-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.moji-nav li{
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.moji-nav li a{
+    color: black;
+}
+
+.moji-nav li a:hover{
+    border-bottom: 2px solid  black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+}
+
+img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(45, 107, 109);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(84, 84, 84);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    padding: 20px 0;
+}
+
+footer small{
+    font-size: 12px;
+}
+
+#index h1{
+    font-size: 100px;
+    line-height: 1;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+}
+
+#index .content{
+    margin-top: 150px;
+}
+
+#index p{
+    font-size: 16px;
+    color: black;
+}
+
+#index footer{
+    width: 960px;
+    margin: 150px auto 0 auto;
+    text-align: left;
+}
+
+#index{
+    background-image: url(../images/haikei.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#index .box{
+    margin-top: 150px;
+}
