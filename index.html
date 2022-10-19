@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
+
 <head>
+    <meta name="viewport" content="width=device-width"/>
     <meta charset="UTF-8">
-    <title>M.Kportfolio</title>
+    <title>Miyu Kamegaya | Webデザイナーになりたい大学生</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body id="index">
+
+    <!-- ローディング用 -->
+	<div id="loader-bg">
+	</div>
+	
+		<div id="loader">
+			<p class="en_min enCopy">Making a difference<br class="sp_show"> in the world is<br class="sp_show"> what drives me.</p>
+		</div>
+
     <header>
         <div class="logo">
         <a href="index.html"><img src="images/kadai2.png" alt="MIYUKONAME"></a>
@@ -24,10 +36,65 @@
             <p>このWebサイトは、神奈川大学経営学部の道用ゼミに所属するKamegaya Miyuのポートフォリオサイトです。<br>今まで自身で作ってきた作品や、これからゼミ活動中に製作していく作品などを掲載しています。</p>
         </div>
     </div> 
+
     <footer>
         <small>(c)2022 KamegayaMiyu-portfolio.</small>
+        <script src="/lib/cmn_js/common-dist.js"></script>
     </footer>
 
 
+    <script>
+      $(function() {
+        var h = $(window).height();
+        $('#loader-bg ,#loader').height(h).css('display','block');
+        $('body').css('height','100vh');
+      });
+       
+      $(window).load(function () { //全ての読み込みが完了したら実行
+        /*$('#loader-bg').delay(1600).fadeOut(800);*/
+        $('#loader').delay(1600).fadeOut(300);
+        
+        $('#loader-bg').delay(1300).queue(function(next) {
+          $(this).addClass('on');
+          next();
+      });	
+        $('#wrapper').delay(1600).queue(function(next) {
+          $(this).addClass('on');
+          next();
+          $('body').css('height','auto');
+      });
+        
+      });
+       
+      //10秒たったら強制的にロード画面を非表示
+      $(function(){
+        setTimeout('stopload()',3000);
+      });
+       
+      function stopload(){
+        $('#loader').delay(1600).fadeOut(300);	
+        $('#loader-bg').delay(1300).queue(function(next) {
+          $(this).addClass('on');
+          next();
+      });	
+        $('#wrapper').delay(1600).queue(function(next) {
+          $(this).addClass('on');
+          next();
+          $('body').css('height','auto');
+      });
+        
+      }
+        
+      const isIPad = /iPad|Macintosh/i.test(navigator.userAgent)
+      && 'ontouchend' in document
+      
+      if(isIPad){
+        $('.top .mv').css({'height':'auto','padding-top':'67%'});
+        $('.ft').css({'height':'auto','padding-top':'67%'});
+      } else {
+        console.info('iPadからのアクセスじゃないです')
+      }	
+      
+      </script>
 </body>
 </html>
