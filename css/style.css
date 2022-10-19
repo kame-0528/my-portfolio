@@ -129,3 +129,52 @@ footer small{
 #index .box{
     margin-top: 150px;
 }
+
+.loader {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: relative
+}
+
+.loader_dot, .loader_dot:before, .loader_dot:after {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.4s infinite ease-in-out;
+  animation: load7 1.4s infinite ease-in-out
+}
+
+.loader_dot {
+  color: #a28d69;
+  font-size: 10px;
+  margin: -2em auto 0;
+  position: absolute;
+  text-indent: -9999em;
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  top: 50vh;
+  left: 50vw;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 9999
+}
+
+.loader_dot::before, .loader_dot::after {
+  content: '';
+  position: absolute;
+  top: 0
+}
+
+.loader_dot::before {
+  left: -4.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s
+}
+
+.loader_dot::after {
+  left: 4.5em
+}
