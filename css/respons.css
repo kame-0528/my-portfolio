@@ -1,16 +1,45 @@
-/* タブレット向けレイアウト */
-@media all and (max-width: 1000px) {
-
+/* 画面幅が広い時*/
+#page {
+  width: 980px;
+  margin: 0 auto;
+  border: blue 5px solid;
 }
 
-/* モバイル向けレイアウト */
-@media all and (max-width: 670px) {
+#header {
+  background-color: lightblue;
+}
 
-  .header-right {
-    display: none;
+#index {
+  width: 680px;
+  float: left;
+  background-color: lightpink;
+}
+
+#footer {
+  clear: both;
+  background-color: lightblue;
+}
+
+/* タブレット向けレイアウト */
+@media screen and (max-width: 1000px) {
+  #page {
+    width: 98%;
+    border-color: yellow;
   }
-  
-  .menu-icon {
-    display: block;
+
+  #content {
+    width: 70%;
+  }
+}
+
+
+/* モバイル向けレイアウト */
+@media screen and (max-width: 700px) {
+  #page {
+    border-color: red;
+  }
+
+  #content {
+    width: 100%;
   }
 }
