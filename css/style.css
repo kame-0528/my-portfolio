@@ -3,8 +3,8 @@
  body{
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    color: rgb(133, 133, 133);
+    background-color: #8c6450;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
 }
@@ -104,7 +104,7 @@ footer small{
 
 #index p{
     font-size: 16px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #index footer{
