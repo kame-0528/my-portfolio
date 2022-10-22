@@ -20,29 +20,6 @@ header{
     margin-top: 50px;
 }
 
-.moji-nav{
-    float: right;
-    margin-top: 60px;
-}
-
-.moji-nav li{
-    float: left;
-    margin: 0 20px;
-    font-size: 20px;
-    list-style: none;
-    font-family: 'Playfair Display', serif;
-}
-
-.moji-nav li a{
-    color: rgb(255, 255, 255);
-}
-
-.moji-nav li a:hover{
-    border-bottom: 2px solid  rgb(255, 255, 255);
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
 .content{
     width: 960px;
     margin: 0 auto;
