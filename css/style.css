@@ -53,7 +53,7 @@ p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
 }
 
-img{
+.logo img{
     vertical-align: bottom;
     width: 75px;
     height: 75px;
@@ -84,7 +84,7 @@ a:hover{
 footer{
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 20px 0;
+    padding: 0 0 20px 0;
     clear: both;
 }
 
@@ -106,7 +106,7 @@ footer small{
 
 #index footer{
     width: 960px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
     text-align: center;
 }
 
@@ -116,6 +116,7 @@ footer small{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    width: 1200;
 }
 
 #boxes{
@@ -135,4 +136,15 @@ footer small{
 .photo{
     border: 1px solid rgb(255, 255, 255);
     width: 30%;
+}
+
+.toTop img{
+    width: 100px;
+	height: 40px;
+}
+
+.yajirushi img{
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
 }

@@ -5,11 +5,24 @@
     margin: 0 auto;
   }
 
+  .logo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 100px;
+  }
+
   #index {
     width: 1200px;
     float: left;
     position: absolute;
     }
+
+  .yajirushi img{
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
   #footer{
     text-align: center;
@@ -40,6 +53,11 @@
   #index {
     width: 1000px;
     float: left;
+  }
+
+  .yajirushi {
+    width: 50px;
+    margin: 0 auto;
   }
 
   #footer{
@@ -101,6 +119,11 @@
     width: 300px;
     height: 320px;
     margin: 0 50px 40px 50px;
+  }
+
+  .yajirushi {
+    width: 50px;
+    margin: 0 auto;
   }
 
   #footer{
