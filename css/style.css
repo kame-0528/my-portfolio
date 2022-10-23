@@ -20,14 +20,9 @@ header{
     margin-top: 50px;
 }
 
-#moji{
-    margin-bottom: 150px;
-}
-
 .moji-nav{
     float: right;
     margin-top: 60px;
-    margin-bottom: 150px;
 }
 
 .moji-nav li{
@@ -102,7 +97,6 @@ footer small{
     line-height: 1;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
