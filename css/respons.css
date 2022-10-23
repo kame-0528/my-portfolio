@@ -1,42 +1,112 @@
 /* 画面幅が広い時*/
-#page {
-  width: 980px;
-  margin: 0 auto;
-  border: blue 5px solid;
+@media screen and (max-width: 1366px) {
+  #page {
+    width: 100%;
+    margin: 0 auto;
+    border: blue 5px solid;
+  }
+
+  #header {
+    background-color: lightblue;
+  }
+
+  #index {
+    width: 1200px;
+    float: left;
+    }
 }
 
-#header {
-  background-color: lightblue;
+  #footer{
+    clear: both;
+  }
+
+footer small{
+  font-size: 12px;
 }
 
-#index {
-  width: 680px;
-  float: left;
-  background-color: lightpink;
+#index h1{
+  font-size: 70px;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 50px;
 }
 
-#footer {
-  clear: both;
-  background-color: lightblue;
+#index .content{
+  margin-top: 150px;
+}
+
+#index p{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+#index footer{
+  width: 960px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+
+#index{
+  background-image: url(../images/haikei.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.boxes{
+  max-width: 1200px;
+  margin: 200px auto 100px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.box{
+  width: 300px;
+  height: 320px;
+  margin: 0 auto 40px auto;
+}
+
+.photo{
+  border: 1px solid rgb(255, 255, 255);
+  width: 30%;
 }
 
 /* タブレット向けレイアウト */
 @media screen and (max-width: 1000px) {
   #page {
-    width: 98%;
-    border-color: yellow;
+    width: 100%;
+    margin: 0 auto;
+    border-color: yellow 5px solid;
   }
 
-  #content {
-    width: 70%;
+  #index {
+    width: 850px;
+    float: left;
+  }
+
+  #footer{
+    clear: both;
   }
 }
-
 
 /* モバイル向けレイアウト */
 @media screen and (max-width: 700px) {
   #page {
     border-color: red;
+  }
+
+  #content {
+    width: 100%;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media screen and (max-width: 375px) {
+  #page {
+    border-color: rgb(111, 255, 0);
   }
 
   #content {
