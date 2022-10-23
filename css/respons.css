@@ -3,15 +3,41 @@
   #page {
     width: 100%;
     margin: 0 auto;
-    border: blue 5px solid;
+    border: 5px solid;
+  }
+
+  .moji-nav{
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 250px;
+  }
+
+  .moji-nav li{
+      float: left;
+      margin: 0 20px;
+      font-size: 20px;
+      list-style: none;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .moji-nav li a{
+      color: rgb(255, 255, 255);
+  }
+
+  .moji-nav li a:hover{
+      border-bottom: 2px solid  rgb(255, 255, 255);
+      padding-bottom: 3px;
+      text-decoration: none;
   }
 
   #index {
     width: 1200px;
     float: left;
+    position: absolute;
     }
 
   #footer{
+    text-align: center;
     clear: both;
   }
 }
@@ -21,15 +47,34 @@
   #page {
     width: 100%;
     margin: 0 auto;
-    border-color: yellow 5px solid;
+    border-color: 5px solid;
+  }
+  .moji-nav{
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 250px;
+  }
+
+  .logo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 100px;
+}
+
+  #moji{
+    margin-top: 0;
+    margin-right: 20px;
+    width: 1000px;
   }
 
   #index {
-    width: 850px;
+    width: 1000px;
     float: left;
   }
 
   #footer{
+    text-align: center;
     clear: both;
   }
 }
@@ -37,21 +82,115 @@
 /* モバイル向けレイアウト */
 @media screen and (max-width: 700px) {
   #page {
-    border-color: red;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 50px;
+}
+
+  #moji{
+    float: right;
+    margin-top: 0;
+    margin-right: 25px;
+    width: 700px;
+  }
+
+  .content{
+    width: 700px;
+    margin: 0;
+    text-align: center;
+}
+
+  #wrap{
+    clear: both;
+  }
+
+  #index h1{
+    font-size: 70px;
+    line-height: 1;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
   }
 
   #content {
     width: 100%;
+  }
+
+  #footer{
+    text-align: center;
+    clear: both;
+  }
+
+  #index footer{
+    width: 700px;
+    margin: 0;
+    text-align: center;
+    clear: both;
   }
 }
 
 /* スマホ向けレイアウト */
 @media screen and (max-width: 375px) {
   #page {
-    border-color: rgb(111, 255, 0);
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .logo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 50px;
+}
+
+  #moji{
+    margin-top: 0;
+    margin-right: 20px;
+    width: 375px;
   }
 
   #content {
+    width: 100%;
+  }
+}*/
+
+  #footer{
+    text-align: center;
+    clear: both;
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 1366px) {
+  #page {
+    width: 100%;
+    margin: 0 auto;
+    border-color: rgb(13, 255, 0);
+  }
+  #index {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #page {
+    width: 98%;
+    border-color: yellow;
+  }
+  #index {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #page {
+    border-color: red;
+  }
+  #index {
     width: 100%;
   }
 }

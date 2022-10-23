@@ -4,6 +4,58 @@
     <head id="header">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+            img {
+              max-width: 100%;
+            }
+            #page {
+              width: 980px;
+              margin: 0 auto;
+              border: blue 5px solid;
+            }
+            #header {
+              background-color: lightblue;
+            }
+            #content {
+              width: 680px;
+              float: left;
+              background-color: lightpink;
+            }
+            #sidebar {
+              width: 300px;
+              float: right;
+              background-color: lightgreen;
+            }
+            #footer {
+              clear: both;
+              background-color: lightblue;
+            }
+      
+            @media screen and (max-width: 1000px) {
+              #page {
+                width: 98%;
+                border-color: yellow;
+              }
+              #content {
+                width: 70%;
+              }
+              #sidebar {
+                width: 30%;
+              }
+            }
+      
+            @media screen and (max-width: 700px) {
+              #page {
+                border-color: red;
+              }
+              #content {
+                width: 100%;
+              }
+              #sidebar {
+                width: 100%;
+              }
+            }
+          </style>
         <title>Miyu Kamegaya | Webデザイナーになりたい大学生</title>
         <link rel="icon" href="images/faviconda.png">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -15,11 +67,11 @@
             <div class="logo">
             <img src="images/logo.png" alt="MIYUKONAME">
             </div>
-            <nav>
+            <div id="moji">
                 <ul class="moji-nav">
                     <li><a href="Matcha/index.html">Matcha</a></li>
                 </ul>
-            </nav>
+            </div>
         </header>
         <div id="wrap">
             <div class="content">
