@@ -16,18 +16,13 @@ header{
 }
 
 .logo{
-    max-width: 1200px;
     float: left;
     margin-top: 50px;
-    text-align: center;
 }
 
 .moji-nav{
-    max-width: 1200px;
     float: right;
     margin-top: 60px;
-    margin-bottom: 250px;
-    text-align: center;
 }
 
 .moji-nav li{
@@ -97,10 +92,6 @@ footer small{
     font-size: 12px;
 }
 
-#index .moji-nav{
-    margin-right: auto;
-}
-
 #index h1{
     font-size: 70px;
     line-height: 1;
@@ -111,11 +102,6 @@ footer small{
 
 #index .content{
     margin-top: 150px;
-}
-
-#index p{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
 }
 
 #index footer{
