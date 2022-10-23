@@ -105,11 +105,6 @@ footer small{
     margin-top: 150px;
 }
 
-#index .boxes{
-    width: 1200px;
-    margin: 200px auto 100px;
-}
-
 #index p{
     font-size: 16px;
     color: rgb(255, 255, 255);
@@ -146,43 +141,4 @@ footer small{
 .photo{
     border: 1px solid rgb(255, 255, 255);
     width: 30%;
-    padding: 0 50px 50px 50px;
-}
-
-section{
-    margin: 0;
-	padding: 0;
-	border:0;
-	outline:0;
-	font-size: 100%;
-	font-weight: normal;
-}
-
-.cf {
-	zoom: 1;
-}
-
-.cf:before, .cf:after {
-	content: "";
-	display: table;
-}
-
-.cf:after {
-	clear: both;
-}
-
-#works {
-	margin-bottom: 70px;
-	padding: 0 20px;
-}
-#works li {
-	margin-bottom: 40px;
-	text-align: center;
-}
-#works li:last-child {
-	margin-bottom: 0;
-}
-#works li img{
-	width: 280px;
-	height: 260px;
 }

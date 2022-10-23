@@ -6,72 +6,14 @@
     border: blue 5px solid;
   }
 
-  #header {
-    background-color: lightblue;
-  }
-
   #index {
     width: 1200px;
     float: left;
     }
-}
 
   #footer{
     clear: both;
   }
-
-footer small{
-  font-size: 12px;
-}
-
-#index h1{
-  font-size: 70px;
-  line-height: 1;
-  color: rgb(255, 255, 255);
-  font-family: 'Playfair Display', serif;
-  margin-bottom: 50px;
-}
-
-#index .content{
-  margin-top: 150px;
-}
-
-#index p{
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-}
-
-#index footer{
-  width: 960px;
-  margin: 100px auto 0 auto;
-  text-align: center;
-}
-
-#index{
-  background-image: url(../images/haikei.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.boxes{
-  max-width: 1200px;
-  margin: 200px auto 100px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.box{
-  width: 300px;
-  height: 320px;
-  margin: 0 auto 40px auto;
-}
-
-.photo{
-  border: 1px solid rgb(255, 255, 255);
-  width: 30%;
 }
 
 /* タブレット向けレイアウト */
