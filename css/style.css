@@ -53,6 +53,11 @@ p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
 }
 
+h1{
+    top: 0;
+    position: fixed;
+}
+
 .logo img{
     vertical-align: bottom;
     width: 75px;
@@ -93,11 +98,15 @@ footer small{
 }
 
 #index h1{
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
     margin-bottom: 50px;
+}
+
+#index img{
+    text-align: center;
 }
 
 #index .content{
@@ -144,6 +153,7 @@ footer small{
 
 .yajirushi img{
     width: 50px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+    display: block;
 }

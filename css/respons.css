@@ -24,6 +24,17 @@
     text-align: center;
   }
 
+  .toTop img{
+    width: 100px;
+	  height: 40px;
+  }
+
+  .yajirushi img{
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+  } 
+
   #footer{
     text-align: center;
     clear: both;
@@ -71,6 +82,7 @@
   #page {
     width: 100%;
     margin: 0 auto;
+    overflow:hidden;
   }
 
   .logo{
@@ -97,7 +109,7 @@
   }
 
   #index h1{
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
     font-family: 'Playfair Display', serif;
     margin-bottom: 50px;
@@ -121,9 +133,15 @@
     margin: 0 50px 40px 50px;
   }
 
-  .yajirushi {
+  .toTop img{
+    width: 100px;
+	  height: 40px;
+  }
+
+  .yajirushi img{
     width: 50px;
-    margin: 0 auto;
+    text-align: center;
+    display: block;
   }
 
   #footer{
