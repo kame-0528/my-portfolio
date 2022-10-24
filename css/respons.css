@@ -1,8 +1,65 @@
+header{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.content{
+  width: 1000px;
+}
+
+.logo img{
+  vertical-align: bottom;
+  width: 75px;
+  height: 75px;
+}
+
+#index footer{
+  width: 960px;
+}
+
+#boxes{
+  max-width: 1200px;
+  margin: 200px auto 100px;
+}
+
+.box{
+  width: 300px;
+}
+
+.photo{
+  width: 30%;
+}
+
+.toTop img{
+  width: 100px;
+  height: 40px;
+}
+
+.yajirushi img{
+  width: 50px;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
 /* 画面幅が広い時*/
 @media screen and (max-width: 1366px) {
   #page {
-    width: 100%;
+    width: 1366px;
     margin: 0 auto;
+  }
+
+  header{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .content{
+    width: 1366px;
+    margin: auto;
+    text-align: center;
   }
 
   .logo{
@@ -10,6 +67,12 @@
     margin-left: 20px;
     margin-top: 50px;
     width: 100px;
+  }
+
+  .logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
   }
 
   #index {
@@ -18,23 +81,39 @@
     position: absolute;
     }
 
-  .yajirushi img{
-    width: 50px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  #footer{
-    text-align: center;
-    clear: both;
-  }
+    .box{
+      width: 300px;
+      height: 320px;
+      margin: 0 auto 40px auto;
+    }
+  
+    #boxes{
+      max-width: 1000px;
+      margin-top:200px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+    }
 }
 
 /* タブレット向けレイアウト */
 @media screen and (max-width: 1000px) {
   #page {
-    width: 100%;
+    width: 1000px;
     margin: 0 auto;
+    background-color: brown;
+  }
+
+  header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .content{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
   }
 
   .logo{
@@ -42,6 +121,12 @@
     margin-left: 20px;
     margin-top: 50px;
     width: 100px;
+  }
+
+  .logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
   }
 
   #moji{
@@ -55,12 +140,20 @@
     float: left;
   }
 
-  .yajirushi {
-    width: 50px;
-    margin: 0 auto;
+  .box{
+    width: 300px;
+    height: 320px;
+    margin: 0 auto 40px auto;
   }
 
-  #footer{
+  #boxes{
+    max-width: 1000px;
+    margin-top:200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    grid-column: 2;
     text-align: center;
     clear: both;
   }
@@ -69,7 +162,14 @@
 /* モバイル向けレイアウト */
 @media screen and (max-width: 700px) {
   #page {
-    width: 100%;
+    width: 700px;
+    margin: 0 auto;
+    background-color: blueviolet;
+  }
+
+  header{
+    width: 700px;
+    height: 100px;
     margin: 0 auto;
   }
 
@@ -78,58 +178,68 @@
     margin-left: 20px;
     margin-top: 50px;
     width: 50px;
-}
+    background-color: blueviolet;
+  }
+
+  .logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
+  }
 
   #moji{
     margin-top: 0;
     margin-right: 20px;
     width: 700px;
+    background-color: blueviolet;
   }
 
   .content{
     width: 700px;
-    margin: 0;
+    margin: auto;
     text-align: center;
+    background-color: blue;
   }
 
   #wrap{
+    width: 700px;
     clear: both;
+    background-color: blueviolet;
   }
 
-  #index h1{
-    font-size: 50px;
-    line-height: 1;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 50px;
-  }
-
-  #content {
-    width: 100%;
+  .box{
+    width: 300px;
+    height: 320px;
+    margin: 0 auto 40px auto;
   }
 
   #boxes{
     max-width: 700px;
     margin-top:200px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    display: block;
+    background-color: aquamarine;
   }
 
   .box{
     width: 300px;
     height: 320px;
-    margin: 0 50px 40px 50px;
+    margin: 0 auto 40px auto;
   }
 
   .yajirushi img{
     width: 50px;
-    text-align: center;
+    text-align: left;
     display: block;
   }
 
   #footer{
     text-align: center;
     clear: both;
+    background-color: aqua;
   }
 
   #index footer{
