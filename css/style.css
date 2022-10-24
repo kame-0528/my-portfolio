@@ -53,11 +53,6 @@ p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
 }
 
-h1{
-    top: 0;
-    position: fixed;
-}
-
 .logo img{
     vertical-align: bottom;
     width: 75px;
@@ -103,10 +98,6 @@ footer small{
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
     margin-bottom: 50px;
-}
-
-#index img{
-    text-align: center;
 }
 
 #index .content{

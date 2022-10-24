@@ -24,17 +24,6 @@
     text-align: center;
   }
 
-  .toTop img{
-    width: 100px;
-	  height: 40px;
-  }
-
-  .yajirushi img{
-    width: 50px;
-    margin: 0 auto;
-    text-align: center;
-  } 
-
   #footer{
     text-align: center;
     clear: both;
@@ -82,7 +71,6 @@
   #page {
     width: 100%;
     margin: 0 auto;
-    overflow:hidden;
   }
 
   .logo{
@@ -131,11 +119,6 @@
     width: 300px;
     height: 320px;
     margin: 0 50px 40px 50px;
-  }
-
-  .toTop img{
-    width: 100px;
-	  height: 40px;
   }
 
   .yajirushi img{
