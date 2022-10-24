@@ -3,7 +3,7 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #8c6450;
+    background-color: #B4866B;
     color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
@@ -62,7 +62,7 @@ a{
 }
 
 a:visited{
-    color:rgb(126, 126, 126);
+    color:rgb(208, 207, 207);
 }
 
 a:hover{
