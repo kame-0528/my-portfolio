@@ -1,7 +1,5 @@
 header{
   width: 1200px;
-  height: 100px;
-  margin: 0 auto;
 }
 
 .content{
@@ -38,9 +36,6 @@ header{
 
 .yajirushi img{
   width: 50px;
-  margin: auto;
-  text-align: center;
-  display: block;
 }
 
 /* 画面幅が広い時*/
@@ -50,22 +45,12 @@ header{
     margin: 0 auto;
   }
 
-  header{
-    width: 1200px;
-    height: 100px;
-    margin: 0 auto;
-  }
-
   .content{
     width: 1366px;
-    margin: auto;
-    text-align: center;
   }
 
   .logo{
-    float: left;
     margin-left: 20px;
-    margin-top: 50px;
     width: 100px;
   }
 
@@ -80,20 +65,6 @@ header{
     float: left;
     position: absolute;
     }
-
-    .box{
-      width: 300px;
-      height: 320px;
-      margin: 0 auto 40px auto;
-    }
-  
-    #boxes{
-      max-width: 1000px;
-      margin-top:200px;
-      display: flex;
-      flex-wrap: wrap;
-      text-align: center;
-    }
 }
 
 /* タブレット向けレイアウト */
@@ -101,25 +72,18 @@ header{
   #page {
     width: 1000px;
     margin: 0 auto;
-    background-color: brown;
   }
 
   header{
     width: 1000px;
-    height: 100px;
-    margin: 0 auto;
   }
 
   .content{
     width: 1000px;
-    margin: auto;
-    text-align: center;
   }
 
   .logo{
-    float: left;
     margin-left: 20px;
-    margin-top: 50px;
     width: 100px;
   }
 
@@ -150,12 +114,8 @@ header{
     max-width: 1000px;
     margin-top:200px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    flex-flow: column wrap;
-    grid-column: 2;
     text-align: center;
-    clear: both;
   }
 }
 
@@ -164,13 +124,10 @@ header{
   #page {
     width: 700px;
     margin: 0 auto;
-    background-color: blueviolet;
   }
 
   header{
     width: 700px;
-    height: 100px;
-    margin: 0 auto;
   }
 
   .logo{
@@ -178,7 +135,6 @@ header{
     margin-left: 20px;
     margin-top: 50px;
     width: 50px;
-    background-color: blueviolet;
   }
 
   .logo img{
@@ -191,20 +147,14 @@ header{
     margin-top: 0;
     margin-right: 20px;
     width: 700px;
-    background-color: blueviolet;
   }
 
   .content{
     width: 700px;
-    margin: auto;
-    text-align: center;
-    background-color: blue;
   }
 
   #wrap{
     width: 700px;
-    clear: both;
-    background-color: blueviolet;
   }
 
   .box{
@@ -220,31 +170,9 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    display: block;
-    background-color: aquamarine;
-  }
-
-  .box{
-    width: 300px;
-    height: 320px;
-    margin: 0 auto 40px auto;
-  }
-
-  .yajirushi img{
-    width: 50px;
-    text-align: left;
-    display: block;
-  }
-
-  #footer{
-    text-align: center;
-    clear: both;
-    background-color: aqua;
   }
 
   #index footer{
     width: 700px;
-    margin: 0;
-    text-align: center;
   }
 }

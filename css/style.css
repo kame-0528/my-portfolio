@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 body{
-    position: relative;
     margin: auto;
     padding: auto;
     background-color: #8c6450;
@@ -11,7 +10,6 @@ body{
 }
 
 header{
-    width: 1200px;
     height: 100px;
     margin: 0 auto;
 }
@@ -45,19 +43,12 @@ header{
 }
 
 .content{
-    width: 1000px;
     margin: auto;
     text-align: center;
 }
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
-}
-
-.logo img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
 }
 
 ul{
@@ -106,7 +97,6 @@ footer small{
 }
 
 #index footer{
-    width: 960px;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -120,31 +110,25 @@ footer small{
 }
 
 #boxes{
-    max-width: 1200px;
-    margin: 200px auto 100px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
   
 .box{
-    width: 300px;
     height: 320px;
     margin: 0 auto 40px auto;
 }
 
 .photo{
     border: 1px solid rgb(255, 255, 255);
-    width: 30%;
 }
 
 .toTop img{
-    width: 100px;
 	height: 40px;
 }
 
 .yajirushi img{
-    width: 50px;
     margin: auto;
     text-align: center;
     display: block;
