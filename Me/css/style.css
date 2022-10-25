@@ -10,7 +10,6 @@ body{
 }
 
 header{
-    width: 1200px;
     height: 100px;
     margin: 0 auto;
 }
@@ -20,61 +19,13 @@ header{
     margin-top: 50px;
 }
 
-.moji-nav{
-    float: right;
-    margin-top: 60px;
-}
-
-.moji-nav li{
-    float: left;
-    margin: 0 20px;
-    font-size: 20px;
-    list-style: none;
-    font-family: 'Playfair Display', serif;
-}
-
-.moji-nav li a{
-    color: rgb(255, 255, 255);
-}
-
-.moji-nav li a:hover{
-    border-bottom: 2px solid  rgb(255, 255, 255);
-    padding-bottom: 3px;
-    text-decoration: none;
-}
-
 .content{
-    width: 1000px;
     margin: auto;
     text-align: center;
 }
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
-}
-
-img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-}
-
-a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-a:visited{
-    color:rgb(208, 207, 207);
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 #wrap{
@@ -118,15 +69,12 @@ footer small{
 }
 
 #boxes{
-    max-width: 1200px;
-    margin: 200px auto 100px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
   
 .box{
-    width: 300px;
     height: 320px;
     margin: 0 auto 40px auto;
 }
