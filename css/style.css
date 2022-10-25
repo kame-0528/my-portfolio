@@ -102,11 +102,11 @@ footer small{
 }
 
 #index{
-    background-image: url(../images/haikei.png);
+    background-image: url(../images/E711FBFB-8050-4DFD-8671-F23CC4CA3C89_1_105_c.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: top;
 }
 
 #boxes{
