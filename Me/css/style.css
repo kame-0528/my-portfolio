@@ -61,11 +61,11 @@ footer small{
 }
 
 #index{
-    background-image: url(../images/haikei.png);
+    background-image: url(../images/miyu3.png.);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: top;
 }
 
 #boxes{

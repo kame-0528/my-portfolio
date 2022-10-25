@@ -140,6 +140,10 @@ header{
   .content{
     width: 700px;
   }
+
+  #index h1{
+    font-size: 45px;
+  }
   
   #wrap{
     width: 700px;

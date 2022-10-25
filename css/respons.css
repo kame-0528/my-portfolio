@@ -60,11 +60,15 @@ header{
     height: 75px;
   }
 
+  .yajirushi img{
+    width: 50px;
+  }
+
   #index {
     width: 1200px;
     float: left;
     position: absolute;
-    }
+  }
 }
 
 /* タブレット向けレイアウト */
@@ -153,13 +157,17 @@ header{
     width: 700px;
   }
 
+  #index h1{
+    font-size: 45px;
+  }
+
   #wrap{
     width: 700px;
   }
 
   .box{
-    width: 300px;
-    height: 320px;
+    width: 400px;
+    height: 420px;
     margin: 0 auto 40px auto;
   }
 
