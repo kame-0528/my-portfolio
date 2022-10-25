@@ -1,16 +1,15 @@
 @charset "utf-8";
 
 body{
-    margin: 0;
-    padding: 0;
-    background-color: #78882d;
-    color: rgb(255, 253, 253);
+    margin: auto;
+    padding: auto;
+    background-color: #96964d;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
 }
 
 header{
-    width: 960px;
     height: 100px;
     margin: 0 auto;
 }
@@ -21,18 +20,12 @@ header{
 }
 
 .content{
-    width: 960px;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
 }
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
-}
-
-img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
 }
 
 ul{
@@ -46,7 +39,7 @@ a{
 }
 
 a:visited{
-    color:rgb(126, 126, 126);
+    color:rgb(208, 207, 207);
 }
 
 a:hover{
@@ -60,7 +53,8 @@ a:hover{
 footer{
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 20px 0;
+    padding: 0 0 20px 0;
+    clear: both;
 }
 
 footer small{
@@ -68,7 +62,7 @@ footer small{
 }
 
 #index h1{
-    font-size: 100px;
+    font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
@@ -76,18 +70,12 @@ footer small{
 }
 
 #index .content{
-    margin-top: 150px;
-}
-
-#index p{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
+    margin-top: 200px;
 }
 
 #index footer{
-    width: 960px;
-    margin: 150px auto 0 auto;
-    text-align: left;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 #index{
@@ -98,11 +86,27 @@ footer small{
     background-size: cover;
 }
 
+#boxes{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+  
 .box{
-    width: 960px;
-    margin: 0 auto;
+    height: 320px;
+    margin: 0 auto 40px auto;
 }
 
-#index .box{
-    margin-top: 150px;
+.photo{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.toTop img{
+	height: 40px;
+}
+
+.yajirushi img{
+    margin: auto;
+    text-align: center;
+    display: block;
 }

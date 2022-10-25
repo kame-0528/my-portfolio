@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 body{
-    margin: 0;
-    padding: 0;
-    background-color: #8c6450;
+    margin: auto;
+    padding: auto;
+    background-color: #a76561;
     color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
@@ -70,7 +70,7 @@ a{
 }
 
 a:visited{
-    color:rgb(126, 126, 126);
+    color:rgb(208, 207, 207);
 }
 
 a:hover{
@@ -84,7 +84,7 @@ a:hover{
 footer{
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 20px 0;
+    padding: 0 0 20px 0;
     clear: both;
 }
 
@@ -93,7 +93,7 @@ footer small{
 }
 
 #index h1{
-    font-size: 70px;
+    font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
@@ -105,8 +105,7 @@ footer small{
 }
 
 #index footer{
-    width: 960px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
     text-align: center;
 }
 
@@ -134,5 +133,14 @@ footer small{
 
 .photo{
     border: 1px solid rgb(255, 255, 255);
-    width: 30%;
+}
+
+.toTop img{
+	height: 40px;
+}
+
+.yajirushi img{
+    margin: auto;
+    text-align: center;
+    display: block;
 }
