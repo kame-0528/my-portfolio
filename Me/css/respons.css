@@ -3,7 +3,12 @@ header{
 }
   
 .content{
-    width: 1000px;
+    width: 1200px;
+}
+
+.content p{
+  width: 60%;
+  text-align: left;
 }
   
 .logo img{
@@ -47,6 +52,11 @@ header{
   
   .content{
     width: 1366px;
+  }
+
+  .content p{
+    width: 60%;
+    text-align: left;
   }
   
   .logo{
