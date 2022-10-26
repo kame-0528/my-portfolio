@@ -60,13 +60,15 @@ footer small{
     text-align: center;
 }
 
-#index{
-    background-image: url(../images/miyu3.png.);
+/*#index{
+    background-image: url(../images/miyu4.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-position: top;
-}
+    background-size: 100% 550px;
+    object-fit: cover;
+}*/
 
 #boxes{
     display: flex;
