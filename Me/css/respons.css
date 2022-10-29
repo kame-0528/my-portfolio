@@ -60,6 +60,12 @@ header{
     width: 1200px;
   }
 
+  .content img{
+    max-width: 1200px;
+    width: 300px;
+    height: 300px;
+  }
+
   .content p{
     width: 1200px;
     text-align: center;
@@ -96,6 +102,12 @@ header{
   
   .content{
     width: 1000px;
+  }
+
+  .content img{
+    max-width: 1000px;
+    width: 300px;
+    height: 300px;
   }
 
   .content p{
@@ -160,6 +172,12 @@ header{
   
   .content{
     width: 700px;
+  }
+
+  .content img{
+    max-width: 700px;
+    width: 300px;
+    height: 300px;
   }
 
   .content p{
