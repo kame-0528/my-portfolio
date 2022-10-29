@@ -24,6 +24,16 @@ header{
     text-align: center;
 }
 
+.image{
+    text-align: center;
+}
+
+.sen{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
 }
@@ -67,6 +77,17 @@ footer small{
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
     margin-bottom: 50px;
+    margin-bottom: 180px;
+}
+
+#index h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#index .hi{
+    font-weight: bold;
 }
 
 #index .content{
@@ -76,6 +97,10 @@ footer small{
 #index footer{
     margin: 0 auto 0 auto;
     text-align: center;
+}
+
+#index .deki{
+    margin-bottom: 150px;
 }
 
 #index{
