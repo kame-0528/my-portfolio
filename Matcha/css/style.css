@@ -38,11 +38,6 @@ p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-}
-
 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -101,29 +96,6 @@ footer small{
 
 #index .deki{
     margin-bottom: 150px;
-}
-
-#index{
-    background-image: url(../images/haikei.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-#boxes{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-  
-.box{
-    height: 320px;
-    margin: 0 auto 40px auto;
-}
-
-.photo{
-    border: 1px solid rgb(255, 255, 255);
 }
 
 .toTop img{

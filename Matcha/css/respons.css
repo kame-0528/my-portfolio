@@ -30,19 +30,6 @@ span img{
     width: 960px;
 }
   
-#boxes{
-    max-width: 1200px;
-    margin: 200px auto 100px;
-}
-  
-.box{
-    width: 300px;
-}
-  
-.photo{
-    width: 30%;
-}
-  
 .toTop img{
     width: 100px;
     height: 40px;
@@ -119,20 +106,6 @@ span img{
     width: 1000px;
     float: left;
   }
-  
-  .box{
-    width: 300px;
-    height: 320px;
-    margin: 0 auto 40px auto;
-  }
-  
-  #boxes{
-    max-width: 1000px;
-    margin-top:200px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-  }
 }
   
 /* モバイル向けレイアウト */
@@ -175,21 +148,6 @@ span img{
   
   #wrap{
     width: 700px;
-  }
-  
-  .box{
-    width: 300px;
-    height: 320px;
-    margin: 0 auto 40px auto;
-  }
-  
-  #boxes{
-    max-width: 700px;
-    margin-top:200px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: center;
   }
   
   #index footer{
