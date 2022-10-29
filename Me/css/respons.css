@@ -7,8 +7,8 @@ header{
 }
 
 .content p{
-  width: 60%;
-  text-align: left;
+  width: 1200px;
+  text-align: center;
 }
   
 .logo img{
@@ -91,6 +91,11 @@ header{
   .content{
     width: 1000px;
   }
+
+  .content p{
+    width: 1000px;
+    text-align: center;
+  }
   
   .logo{
     margin-left: 20px;
@@ -149,6 +154,11 @@ header{
   
   .content{
     width: 700px;
+  }
+
+  .content p{
+    width: 700px;
+    text-align: center;
   }
 
   #index h1{
