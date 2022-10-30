@@ -101,14 +101,6 @@ footer small{
     text-align: center;
 }
 
-#index{
-    background-image: url(../images/E711FBFB-8050-4DFD-8671-F23CC4CA3C89_1_105_c.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-position: top;
-}
-
 #boxes{
     display: flex;
     flex-wrap: wrap;
@@ -118,10 +110,6 @@ footer small{
 .box{
     height: 320px;
     margin: 0 auto 40px auto;
-}
-
-.photo{
-    border: 1px solid rgb(255, 255, 255);
 }
 
 .toTop img{
