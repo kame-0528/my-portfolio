@@ -3,7 +3,7 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #a76561;
+    background-color: #96964d;
     color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
@@ -19,12 +19,39 @@ header{
     margin-top: 50px;
 }
 
+.moji-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.moji-nav li{
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.moji-nav li a{
+    color: rgb(255, 255, 255);
+}
+
+.moji-nav li a:hover{
+    border-bottom: 2px solid  rgb(255, 255, 255);
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
 .content{
     margin: auto;
     text-align: center;
 }
 
-.content img{
+.image{
+    text-align: center;
+}
+
+.sen{
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -32,6 +59,24 @@ header{
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(226, 226, 226);
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 #wrap{
@@ -54,22 +99,18 @@ footer small{
     line-height: 1;
     color: rgb(255, 255, 255);
     font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
     margin-bottom: 200px;
 }
 
 #index h4{
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
-#index p{
-    font-weight: 100;
-    font-size: 15px;
-}
-
-#index .deki{
-    margin-bottom: 150px;
+#index .hi{
+    font-weight: bold;
 }
 
 #index .content{
@@ -81,29 +122,8 @@ footer small{
     text-align: center;
 }
 
-/*#index{
-    background-image: url(../images/miyu4.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: 100% 550px;
-    object-fit: cover;
-}*/
-
-#boxes{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-  
-.box{
-    height: 320px;
-    margin: 0 auto 40px auto;
-}
-
-.photo{
-    border: 1px solid rgb(255, 255, 255);
+#index .deki{
+    margin-bottom: 150px;
 }
 
 .toTop img{

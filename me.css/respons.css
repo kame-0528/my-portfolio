@@ -6,18 +6,15 @@ header{
     width: 1200px;
 }
 
-span img{
-    width: 300px;
-    height: 300px;
+.content img{
+  max-width: 1200px;
+  width: 300px;
+  height: 300px;
 }
 
-.image{
-    width: 1200px;
-}
-
-.sen{
-    width: 100px;
-    height: 100px;
+.content p{
+  width: 1200px;
+  text-align: center;
 }
   
 .logo img{
@@ -50,8 +47,15 @@ span img{
     width: 1160px;
   }
 
-  .image{
+  .content img{
+    max-width: 1160px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .content p{
     width: 1160px;
+    text-align: center;
   }
   
   .logo{
@@ -87,8 +91,21 @@ span img{
     width: 960px;
   }
 
-  .image{
+  #moji{
+    margin-top: 0;
+    margin-right: 20px;
+    width: 1000px;
+  }
+
+  .content img{
+    max-width: 960px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .content p{
     width: 960px;
+    text-align: center;
   }
   
   .logo{
@@ -136,10 +153,21 @@ span img{
     width: 660px;
   }
 
-  .image{
+  #moji{
+    margin-top: 0;
+    margin-right: 20px;
+    width: 700px;
+  }
+
+  .content img{
+    max-width: 660px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .content p{
     width: 660px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
   }
 
   #index h1{
