@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body{
+    margin: auto;
+    padding: auto;
+    background-color: #96964d;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 2;
+}
+
+header{
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    margin-top: 50px;
+}
+
+.content{
+    margin: auto;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}
+
+.sen{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(226, 226, 226);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0 0 20px 0;
+    clear: both;
+}
+
+footer small{
+    font-size: 12px;
+}
+
+#index h1{
+    font-size: 50px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+    margin-bottom: 200px;
+}
+
+#index h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#index .hi{
+    font-weight: bold;
+}
+
+#index .content{
+    margin-top: 200px;
+}
+
+#index footer{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#index .deki{
+    margin-bottom: 150px;
+}
+
+.toTop img{
+	height: 40px;
+}
+
+.yajirushi img{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
