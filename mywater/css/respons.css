@@ -11,6 +11,10 @@ span img{
     height: 300px;
 }
 
+.images{
+    width: 1200px;
+}
+
 .image{
     width: 1200px;
 }
@@ -50,19 +54,12 @@ span img{
     width: 1160px;
   }
 
+  .images{
+      width: 1160px;
+  }
+
   .image{
     width: 1160px;
-  }
-  
-  .logo{
-    margin-left: 20px;
-    width: 100px;
-  }
-  
-  .logo img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
   }
   
   #index {
@@ -79,11 +76,11 @@ span img{
     margin: 0 auto;
   }
   
-  header{
-    width: 1000px;
-  }
-  
   .content{
+    width: 960px;
+  }
+
+  .images{
     width: 960px;
   }
 
@@ -115,25 +112,14 @@ span img{
     margin: 0 auto;
   }
   
-  header{
-    width: 700px;
-  }
-  
-  .logo{
-    float: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    width: 50px;
-  }
-  
-  .logo img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
-  }
-  
   .content{
     width: 660px;
+  }
+
+  .images{
+    width: 660px;
+    display: flex;
+    flex-direction: column;
   }
 
   .image{
