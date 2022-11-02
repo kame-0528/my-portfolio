@@ -70,7 +70,6 @@ footer small{
     font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
-    font-family: 'Playfair Display', serif;
     margin-top: -45px;
     margin-bottom: 40px;
 }
@@ -78,7 +77,6 @@ footer small{
 #index h4{
     font-size: 20px;
     margin-top: 20px;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 30px;
 }
 
