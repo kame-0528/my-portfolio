@@ -3,25 +3,29 @@
 body{
     margin: auto;
     padding: auto;
-    background-color: #96964d;
+    background-color: #ad8f62;
     color: rgb(255, 255, 255);
     font-size: 15px;
     line-height: 2;
 }
 
-header{
-    height: 100px;
-    margin: 0 auto;
-}
-
-.logo{
-    float: left;
-    margin-top: 50px;
-}
-
 .content{
     margin: auto;
     text-align: center;
+}
+
+.chi {
+    line-height: -10.0;
+}
+
+.p{
+    line-height: 2;
+}
+
+.images{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .image{
@@ -36,6 +40,7 @@ header{
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 a{
@@ -70,9 +75,8 @@ footer small{
     font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 50px;
-    margin-bottom: 200px;
+    margin-top: -45px;
+    margin-bottom: 40px;
 }
 
 #index h4{
