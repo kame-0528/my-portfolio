@@ -24,7 +24,7 @@ body{
 .images{
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .image{
@@ -74,7 +74,7 @@ footer small{
     font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
-    margin-top: -45px;
+    margin-top: -20px;
     margin-bottom: 40px;
 }
 
