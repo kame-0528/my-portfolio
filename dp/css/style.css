@@ -6,7 +6,6 @@ body{
     background-color: #ad8f62;
     color: rgb(255, 255, 255);
     font-size: 15px;
-    line-height: 2;
 }
 
 .content{
@@ -83,10 +82,6 @@ footer small{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
-}
-
-#index .hi{
-    font-weight: bold;
 }
 
 #index .content{
