@@ -3,23 +3,27 @@ header{
 }
   
 .content{
-    width: 1200px;
+  width: 1200px;
 }
 
 span img{
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+.images{
+  width: 1200px;
 }
 
 .image{
-    width: 1200px;
+  width: 1200px;
 }
 
 .sen{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-  
+
 .logo img{
     vertical-align: bottom;
     width: 75px;
@@ -27,70 +31,63 @@ span img{
 }
   
 #index footer{
-    width: 960px;
+  width: 960px;
 }
-  
+
 .toTop img{
-    width: 100px;
-    height: 40px;
+  width: 100px;
+  height: 40px;
 }
-  
+
 .yajirushi img{
-    width: 50px;
+  width: 50px;
 }
-  
+
 /* 画面幅が広い時*/
 @media screen and (max-width: 1366px) {
   #index {
     width: 1366px;
     margin: 0 auto;
   }
-  
+
   .content{
     width: 1160px;
+  }
+
+  .images{
+      width: 1160px;
   }
 
   .image{
     width: 1160px;
   }
-  
-  .logo{
-    margin-left: 20px;
-    width: 100px;
-  }
-  
-  .logo img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
-  }
-  
+
   #index {
     width: 1200px;
     float: left;
     position: absolute;
   }
 }
-  
+
 /* タブレット向けレイアウト */
 @media screen and (max-width: 1000px) {
   #index {
     width: 1000px;
     margin: 0 auto;
   }
-  
-  header{
-    width: 1000px;
-  }
-  
+
   .content{
+    width: 960px;
+  }
+
+  .images{
     width: 960px;
   }
 
   .image{
     width: 960px;
   }
-  
+
   .logo{
     margin-left: 20px;
     width: 100px;
@@ -107,33 +104,22 @@ span img{
     float: left;
   }
 }
-  
+
 /* モバイル向けレイアウト */
 @media screen and (max-width: 700px) {
   #index {
     width: 700px;
     margin: 0 auto;
   }
-  
-  header{
-    width: 700px;
-  }
-  
-  .logo{
-    float: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    width: 50px;
-  }
-  
-  .logo img{
-    vertical-align: bottom;
-    width: 75px;
-    height: 75px;
-  }
-  
+
   .content{
     width: 660px;
+  }
+
+  .images{
+    width: 660px;
+    display: flex;
+    flex-direction: column;
   }
 
   .image{
@@ -145,11 +131,11 @@ span img{
   #index h1{
     font-size: 45px;
   }
-  
+
   #wrap{
     width: 700px;
   }
-  
+
   #index footer{
     width: 700px;
   }
