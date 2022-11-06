@@ -98,10 +98,20 @@ footer small{
     margin-bottom: 200px;
 }
 
+#index h3{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
 #index h4{
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 30px;
+}
+
+#index h5{
+    font-size: 18px;
 }
 
 #index p{
