@@ -23,15 +23,6 @@ header{
     height: 75px;
 }
   
-span img{
-  width: 300px;
-  height: 300px;
-}
-
-.image{
-  width: 1200px;
-}
-  
 #index footer{
     width: 960px;
 }
@@ -60,10 +51,6 @@ span img{
     max-width: 1160px;
     width: 300px;
     height: 300px;
-  }
-
-  .image{
-    width: 1160px;
   }
 
   .content p{
@@ -101,10 +88,6 @@ span img{
   }
   
   .content{
-    width: 960px;
-  }
-
-  .image{
     width: 960px;
   }
 
@@ -164,12 +147,6 @@ span img{
     vertical-align: bottom;
     width: 75px;
     height: 75px;
-  }
-  
-  .image{
-    width: 660px;
-    display: flex;
-    flex-direction: column;
   }
   
   .content{
