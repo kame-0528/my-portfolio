@@ -7,6 +7,11 @@ span img{
   height: 300px;
 }
 
+.size img{
+  width: 350px;
+  height: 250px;
+}
+
 .images{
   width: 1200px;
 }
