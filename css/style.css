@@ -88,11 +88,17 @@ footer small{
     font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
-    margin-bottom: 400px;
+    margin-bottom: 50px;
+}
+
+#index h3{
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    margin-bottom: 200px;
 }
 
 #index .content{
-    margin-top: 320px;
+    margin-top: 200px;
 }
 
 #index footer{
