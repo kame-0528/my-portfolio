@@ -12,6 +12,11 @@ span img{
     height: 300px;
 }
 
+.sizeda img{
+    width: 400px;
+    height: 250px;
+}
+
 .images{
     width: 1200px;
 }
