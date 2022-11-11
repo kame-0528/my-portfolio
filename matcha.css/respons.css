@@ -11,6 +11,22 @@ span img{
     height: 300px;
 }
 
+.size img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.sizes img{
+    width: 300px;
+    height: 550px;
+}
+
+.sizeda img{
+    width: 350px;
+    height: 230px;
+}
+
 .image{
     width: 1200px;
 }
