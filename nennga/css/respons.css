@@ -7,6 +7,16 @@ span img{
   height: 300px;
 }
 
+.size img{
+  width: 250px;
+  height: 430px;
+}
+
+.sizes img{
+  width: 250px;
+  height: 350px;
+}
+
 .images{
   width: 1200px;
 }
