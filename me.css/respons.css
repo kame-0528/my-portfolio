@@ -16,6 +16,21 @@ span img{
   height: 300px;
 }
 
+.sizes img{
+  width: 250px;
+  height: 390px;
+}
+
+.sized img{
+  width: 250px;
+  height: 370px;
+}
+
+.sizeda img{
+  width: 370px;
+  height: 250px;
+}
+
 .content p{
   width: 1200px;
   text-align: center;
@@ -25,6 +40,11 @@ span img{
     vertical-align: bottom;
     width: 75px;
     height: 75px;
+}
+
+.sen{
+  width: 100px;
+  height: 100px;
 }
   
 #index footer{

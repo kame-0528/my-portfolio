@@ -51,6 +51,12 @@ header{
     text-align: center;
 }
 
+.sen{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
     font-family: 'Playfair Display', serif;
@@ -96,10 +102,24 @@ footer small{
     margin-bottom: 200px;
 }
 
+#index h3{
+    font-size: 30px;
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+
+#index .hi{
+    font-weight: bold;
+}
+
 #index h4{
     font-size: 20px;
     margin-top: 80px;
     margin-bottom: 30px;
+}
+
+#index .h{
+    margin-top: 20px;
 }
 
 #index h5{
