@@ -7,6 +7,15 @@ span img{
   height: 300px;
 }
 
+.batu img{
+  width: 30px;
+  height: 30px;
+}
+
+.batu{
+  margin-left: 100px;
+}
+
 .images{
   width: 1200px;
 }
@@ -44,6 +53,10 @@ span img{
     width: 1160px;
   }
 
+  .batu{
+    margin-left: 20px;
+  }
+
   .images{
       width: 1160px;
   }
@@ -70,6 +83,10 @@ span img{
     width: 960px;
   }
 
+  .batu{
+    margin-left: 20px;
+  }
+
   .images{
     width: 960px;
   }
@@ -93,6 +110,10 @@ span img{
 
   .content{
     width: 660px;
+  }
+
+  .batu{
+    margin-left: 20px;
   }
 
   .images{
