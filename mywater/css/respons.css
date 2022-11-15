@@ -40,9 +40,8 @@ span img{
 }
   
 #index footer{
-    width: 960px;
+    width: 960px ;
 }
-  
   
 /* 画面幅が広い時*/
 @media screen and (max-width: 1366px) {
