@@ -14,7 +14,8 @@ body{
 }
 
 .batu{
-    margin-top: 50px;
+    margin-top: -130px;
+    position: fixed;
 }
 
 .chi {

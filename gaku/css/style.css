@@ -14,7 +14,8 @@ body{
 }
 
 .batu{
-    margin-top: 50px;
+    margin-top: -130px;
+    position: fixed;
 }
 
 .chi {
@@ -105,14 +106,4 @@ footer small{
 #index .deki{
     margin-bottom: 150px;
     line-height: 2;
-}
-
-.toTop img{
-	height: 40px;
-}
-
-.yajirushi img{
-    margin: auto;
-    text-align: center;
-    display: block;
 }
