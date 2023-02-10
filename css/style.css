@@ -20,13 +20,13 @@ header{
 
 .moji-nav{
     float: right;
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 .moji-nav li{
     float: left;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 21px;
     list-style: none;
     font-family: 'Playfair Display','Noto Serif JP', serif;
 }
