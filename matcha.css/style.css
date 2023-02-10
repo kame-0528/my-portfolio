@@ -29,7 +29,7 @@ header{
     margin: 0 20px;
     font-size: 20px;
     list-style: none;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display''Noto Serif Japanese', serif;
 }
 
 .moji-nav li a{
@@ -60,7 +60,7 @@ header{
 
 p,h1,h2,h3,h4,h5,h6{
     margin-top: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display''Noto Serif Japanese', serif;
 }
 
 ul{
