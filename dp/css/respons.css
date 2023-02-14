@@ -46,19 +46,24 @@ span img{
   }
 
   .content{
-    width: 1160px;
+    width: 950px;
   }
 
   .batu{
     margin-left: 20px;
   }
 
+  .content p{
+    width: 950px;
+    text-align: center;
+  }
+
   .images{
-      width: 1160px;
+      width: 950px;
   }
 
   .image{
-    width: 1160px;
+    width: 950px;
   }
 
   #index {
