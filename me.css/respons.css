@@ -3,7 +3,7 @@ header{
 }
   
 .content{
-    width: 1200px;
+    width: 950px;
 }
 
 span img{
@@ -32,7 +32,7 @@ span img{
 }
 
 .content p{
-  width: 1200px;
+  width: 950px;
   text-align: center;
 }
   
@@ -68,15 +68,15 @@ span img{
   }
   
   .content{
-    width: 1160px;
+    width: 950px;
   }
 
   .image{
-    width: 1160px;
+    width: 950px;
   }
 
   .content p{
-    width: 1160px;
+    width: 950px;
     text-align: center;
   }
   
@@ -110,7 +110,7 @@ span img{
   }
   
   .content{
-    width: 960px;
+    width: 950px;
   }
 
   #moji{
@@ -120,11 +120,11 @@ span img{
   }
 
   .image{
-    width: 960px;
+    width: 950px;
   }
 
   .content p{
-    width: 960px;
+    width: 950px;
     text-align: center;
   }
   
@@ -170,7 +170,7 @@ span img{
   }
   
   .content{
-    width: 660px;
+    width: 600px;
   }
 
   #moji{
@@ -180,13 +180,13 @@ span img{
   }
 
   .image{
-    width: 660px;
+    width: 600px;
     display: flex;
     flex-direction: column;
   }
 
   .content p{
-    width: 660px;
+    width: 600px;
     text-align: center;
   }
 

@@ -56,6 +56,7 @@ header{
     margin: 0 auto;
     text-align: center;
     display: block;
+    margin-top: 20px;
 }
 
 p,h1,h2,h3,h4,h5,h6{
@@ -100,7 +101,7 @@ footer small{
     font-size: 50px;
     line-height: 1;
     color: rgb(255, 255, 255);
-    margin-bottom: 200px;
+    margin-bottom: 210px;
 }
 
 #index h3{
@@ -111,12 +112,27 @@ footer small{
 
 #index .hi{
     font-weight: bold;
+    text-align: center;
 }
 
 #index h4{
     font-size: 20px;
     margin-top: 80px;
     margin-bottom: 30px;
+}
+
+#index h6{
+    margin-top: 300px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#index .my{
+    margin-top: 300px;
+}
+
+#index .yo{
+    margin-top: -250px;
 }
 
 #index .h{
@@ -130,10 +146,11 @@ footer small{
 #index p{
     font-weight: 100;
     font-size: 15px;
+    text-align: left;
 }
 
 #index .deki{
-    margin-bottom: 150px;
+    margin-bottom: 300px;
 }
 
 #index .content{
