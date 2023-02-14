@@ -1,5 +1,5 @@
 .content{
-  width: 1200px;
+  width: 950px;
 }
 
 span img{
@@ -16,12 +16,17 @@ span img{
   margin-left: 100px;
 }
 
+.content p{
+  width: 950px;
+  text-align: center;
+}
+
 .images{
-  width: 1200px;
+  width: 950px;
 }
 
 .image{
-  width: 1200px;
+  width: 950px;
 }
 
 .sen{
@@ -71,19 +76,24 @@ span img{
   }
 
   .content{
-    width: 960px;
+    width: 950px;
   }
 
   .batu{
     margin-left: 20px;
   }
 
+  .content p{
+    width: 950px;
+    text-align: center;
+  }
+
   .images{
-    width: 960px;
+    width: 950px;
   }
 
   .image{
-    width: 960px;
+    width: 950px;
   }
 
   #index {
@@ -100,21 +110,26 @@ span img{
   }
 
   .content{
-    width: 660px;
+    width: 600px;
   }
 
   .batu{
     margin-left: 20px;
   }
 
+  .content p{
+    width: 600px;
+    text-align: center;
+  }
+
   .images{
-    width: 660px;
+    width: 600px;
     display: flex;
     flex-direction: column;
   }
 
   .image{
-    width: 660px;
+    width: 600px;
     display: flex;
     flex-direction: column;
   }

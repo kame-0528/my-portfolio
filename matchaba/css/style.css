@@ -41,6 +41,8 @@ body{
     margin: 0 auto;
     text-align: center;
     display: block;
+    margin-top: 20px;
+    margin-bottom:10px;
 }
 
 p,h1,h2,h3,h4,h5,h6{
@@ -92,7 +94,16 @@ footer small{
 
 #index h5{
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 70px;
+}
+
+#index .sei{
+    margin-top: 150px;
+}
+
+#index .p{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 #index .content{
